@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name="SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.Sms.Intents.SMS_RECEIVED_ACTION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.Sms.Intents.DATA_SMS_RECEIVED_ACTION"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
