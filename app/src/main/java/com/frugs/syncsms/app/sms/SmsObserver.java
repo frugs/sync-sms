@@ -1,4 +1,4 @@
-package com.frugs.syncsms.app;
+package com.frugs.syncsms.app.sms;
 
 public interface SmsObserver {
     void notifySmsReceived(Sms sms);

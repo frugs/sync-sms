@@ -1,4 +1,4 @@
-package com.frugs.syncsms.app;
+package com.frugs.syncsms.app.sms;
 
 import android.content.Context;
 import android.content.Intent;
