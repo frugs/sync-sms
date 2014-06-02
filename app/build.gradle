@@ -33,5 +33,5 @@ android {
 
 dependencies {
     compile "org.roboguice:roboguice:2.0"
-    instrumentTestCompile "com.google.dexmaker:dexmaker-mockito:1.1"
+    compile 'com.google.inject:guice:4.0-beta:no_aop'
 }
