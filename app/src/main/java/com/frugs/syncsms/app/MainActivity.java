@@ -39,9 +39,6 @@ public class MainActivity extends Activity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
 
-        this.registerReceiver(new SmsReceiver(), new IntentFilter(SMS_RECEIVED_ACTION));
-        sendBroadcast(new Intent(SMS_RECEIVED_ACTION));
-
         int id = item.getItemId();
         if (id == R.id.action_settings) {
             return true;

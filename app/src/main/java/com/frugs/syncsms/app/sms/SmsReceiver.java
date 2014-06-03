@@ -16,5 +16,14 @@ public class SmsReceiver extends RoboBroadcastReceiver {
     @Override
     protected void handleReceive(Context context, Intent intent) {
         SmsMessage[] messages = getMessagesFromIntent(intent);
+
+        String senderPhoneNumber = messages[0].getDisplayOriginatingAddress();
+
+        String messageContent = "";
+        for (SmsMessage message : messages) {
+            messageContent += message.getDisplayMessageBody();
+        }
+
+        smsObserver.notifySmsReceived(new Sms("", senderPhoneNumber, messageContent));
     }
 }
