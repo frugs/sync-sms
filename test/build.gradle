@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+    testCompile 'commons-net:commons-net:3.3'
+    testCompile 'commons-io:commons-io:2.4'
+    testCompile 'com.google.code.gson:gson:2.2.4'
+}

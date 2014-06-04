@@ -8,11 +8,6 @@ buildscript {
 }
 apply plugin: 'android'
 
-repositories {
-    mavenCentral()
-    maven { url "http://repo1.maven.org/maven2" }
-}
-
 android {
     compileSdkVersion 19
     buildToolsVersion "19.0.3"

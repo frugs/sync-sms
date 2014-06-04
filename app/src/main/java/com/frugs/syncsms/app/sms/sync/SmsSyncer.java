@@ -39,9 +39,7 @@ public class SmsSyncer implements SmsObserver {
                 outputStream.write(smsJsonMapper.toJson(sms).toString().getBytes(UTF_8));
                 outputStream.flush();
 
-                outputStream.close();
                 socket.close();
-
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (JSONException e) {
