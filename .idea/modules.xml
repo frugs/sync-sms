@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sync-sms/app.iml" filepath="$PROJECT_DIR$/sync-sms/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clientApplication/clientApplication.iml" filepath="$PROJECT_DIR$/clientApplication/clientApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contract/contract.iml" filepath="$PROJECT_DIR$/contract/contract.iml" />
       <module fileurl="file://$PROJECT_DIR$/sync-sms.iml" filepath="$PROJECT_DIR$/sync-sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>

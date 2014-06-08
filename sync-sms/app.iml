@@ -23,6 +23,7 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../app/build/classes/debug" />
+    <output-test url="file://$MODULE_DIR$/../app/build/classes/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../app">
       <sourceFolder url="file://$MODULE_DIR$/../app/build/source/r/debug" isTestSource="false" generated="true" />
